@@ -16,7 +16,7 @@
     "uniswap",
     "ethereum"
   ],
-  "module": "dist/sdk-core.esm.js",
+  "module": "dist/smartswap-sdk-core.esm.js",
   "scripts": {
     "build": "tsdx build",
     "start": "tsdx watch",
