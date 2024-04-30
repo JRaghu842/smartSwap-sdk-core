@@ -1,7 +1,7 @@
 {
   "name": "smartswap-sdk-core",
   "license": "MIT",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "A new SDK for building applications on top of Uniswap V3",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -43,5 +43,13 @@
     "printWidth": 120,
     "semi": false,
     "singleQuote": true
+  },
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/smartswap-sdk-core.esm.js"
+    },
+    "./package.json": "./package.json"
   }
+  
 }
